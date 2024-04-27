@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #67c530;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    float: left;
+    color: rgb(212, 23, 23);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.wname{
+    font-size: 30px;
+    padding: 0px 0px;
+}
+
+div.cw {
+    padding:20px;
+    margin-top:30px;
+    background-color:#1abc9c;
+    height:1500px;
+}
+
+h1.aw{
+    font-size:50px;
+}
+
+div.au{
+    width: 300px;
+}
+
+img.up{
+    width: 35px;
+    height: 35px;
+    border-radius: 39px;
+    float: left;
+
+}
+
+h2.un{
+   margin-top: 0px;
+   padding-left: 120px;
+}
+
+div.fp{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111111;
+}
+.active {
+    background-color: #000000;
+}
+.button {
+    background-color: #04AA6D;/* Green */
+    border: none;
+    padding:15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
